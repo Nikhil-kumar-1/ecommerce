@@ -1,0 +1,46 @@
+.cart-button {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .cart-button div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .minus:before,
+  .plus:before {
+    content: '';
+    width: 20px;
+    height: 3px;
+    background-color: #000;
+  }
+  
+  .plus:before {
+    position: relative;
+  }
+  
+  .plus:before:after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 20px;
+    background-color: #000;
+    top: -8px;
+    left: 8px;
+  }
+  
+  .quantity {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    font-weight: bold;
+  }
+  

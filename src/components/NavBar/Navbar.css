@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+.navbar-custom {
+  /* background-color: #64824f; */
+  background-color: rgb(99, 8, 99);
+  padding: 15px 30px;
+  border-bottom: 1px solid #fff;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
+
+.search-input {
+  border-color: #fff;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.search-btn {
+  color: #fff;
+  border-color: #fff;
+  margin-bottom: 0;
+}
+
+.search-btn:hover {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.align-items-center{
+  display: flex;
+  padding: 0px 80px 0px 80px;
+}
